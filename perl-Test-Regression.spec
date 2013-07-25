@@ -1,15 +1,15 @@
 %define upstream_name    Test-Regression
-%define upstream_version 0.06
+%define upstream_version 0.07
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.07
+Release:	1
 
 Summary:	Test library to generate and compare output
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Regression-0.07.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Algorithm::Diff)
@@ -69,3 +69,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Jul 14 2010 cpan2dist 0.05-1mdv
 - initial mdv release, generated with cpan2dist
+
