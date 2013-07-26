@@ -1,2 +1,4 @@
+removed_sources:
+  Test-Regression-0.06.tar.gz: 76d70cddac44f0540f58046a06a30af69281484b
 sources:
-  "Test-Regression-0.06.tar.gz": 76d70cddac44f0540f58046a06a30af69281484b
+  Test-Regression-0.07.tar.gz: f73aef06ed7b99031f853ab60fc119a3e14587b1
