@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.07
-Release:	1
+Release:	2
 
 Summary:	Test library to generate and compare output
 License:	GPL+ or Artistic
