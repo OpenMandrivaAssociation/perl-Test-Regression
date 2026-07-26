@@ -1,9 +1,7 @@
 %define upstream_name    Test-Regression
-%define upstream_version 0.08
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.08
+Release:	2
 
 Summary:	Test library to generate and compare output
 License:	GPL+ or Artistic
@@ -33,7 +31,7 @@ output, so that if the differences with model output are expected, one can
 easily refresh the model output.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
